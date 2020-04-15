@@ -292,8 +292,8 @@ class RouterApplicationSession(object):
         else:
             # should not arrive here
             #
-            raise Exception("RouterApplicationSession.send: unhandled message {0}".format(msg))
-
+            #raise Exception("RouterApplicationSession.send: unhandled message {0}".format(msg))
+            print("RouterApplicationSession.send: unhandled message {0}".format(msg))
 
 class RouterSession(BaseSession):
     """
